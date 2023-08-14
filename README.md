@@ -1,2 +1,2 @@
 # PythonTemplate
-Template repository to be used a base for Python projects
+Template repository to be used as a base for Python projects
