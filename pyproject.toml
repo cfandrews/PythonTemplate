@@ -103,7 +103,7 @@ profile = "black"
 src_paths = ["src", "tests"]
 
 [tool.pytest.ini_options]
-addopts = "--cov=python_template --cov-fail-under=0 --cov-report=term-missing tests"
+addopts = "--cov=pythontemplate --cov-fail-under=0 --cov-report=term-missing tests"
 
 [tool.mypy]
 files = ["src", "tests"]
