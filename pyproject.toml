@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python_template"
+name = "pythontemplate"
 version = "0.0.1"
 description = "Template repository to be used as a base for Python projects"
 readme = "README.md"

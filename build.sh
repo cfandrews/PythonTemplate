@@ -1,4 +1,4 @@
-rm -rf .mypy_cache .pytest_cache .ruff_cache src/python_template.egg-info venv .coverage pyvenv.cfg
+rm -rf .mypy_cache .pytest_cache .ruff_cache src/pythontemplate.egg-info venv .coverage pyvenv.cfg
 set -e
 python3 -m venv ./venv
 ./venv/bin/pip install -e '.[dev]'
