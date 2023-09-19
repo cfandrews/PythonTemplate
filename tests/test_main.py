@@ -6,6 +6,7 @@ from pythontemplate import main
 class TestMain:
     """Unit tests for pythontemplate.Main."""
 
-    def test_main(self) -> None:
+    @staticmethod
+    def test_main() -> None:
         """Unit test for happy-path cases of pythontemplate.Main.main."""
         main()

@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [{name = "Charles Andrews", email = "cfandrews@outlook.com"}]
+dependencies = []
 
 [project.urls]
 "Homepage" = "https://github.com/cfandrews/PythonTemplate"
@@ -18,12 +19,13 @@ authors = [{name = "Charles Andrews", email = "cfandrews@outlook.com"}]
 dev = [
     "black~=23.9.1",
     "isort~=5.12.0",
-    "ruff~=0.0.289",
+    "ruff~=0.0.290",
     "mypy~=1.5.1",
     "pytest~=7.4.0",
     "assertpy~=1.1",
     "pytest-cov~=4.1.0",
-    "pre-commit~=3.4.0"
+    "pre-commit~=3.4.0",
+    "build~=1.0.3",
 ]
 
 [tool.ruff]
@@ -87,13 +89,11 @@ select = [
     "AIR",   # Airflow
     "PERF",  # Perflint
     "RUF",   # Ruff-specific rules
-
-    # The following rules are nursery rules which we are choosing to opt-in to.
-    "CPY001" # Missing copyright notice at top of file
 ]
 ignore = [
     "ANN101", # Missing type annotation for `self` in method
 ]
+preview = true
 
 [tool.ruff.pydocstyle]
 convention = "google"
