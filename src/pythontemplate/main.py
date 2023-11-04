@@ -1,10 +1,10 @@
 # Copyright 2023 Charles Andrews
-"""Entry script."""
+"""Entrypoint script."""
 import logging
 
 
 def main() -> None:
-    """Entry function."""
+    """Entrypoint."""
     logging.log(level=logging.INFO, msg="Hello World!")
 
 
