@@ -10,4 +10,4 @@ on:
 
 jobs:
   build:
-    uses: cfandrews/ReusableWorkflows/.github/workflows/python-build.yml
+    uses: cfandrews/ReusableWorkflows/.github/workflows/python-build.yml@main
